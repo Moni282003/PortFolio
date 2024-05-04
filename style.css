@@ -9,11 +9,11 @@
 }
 :root{
     --bg-color:#081b29;
-    --main-color:#00abf0;
+    --main-color:#00a0f0;
     --text-color:#333;
     --second-text-color:#555;
     --white-color:#fff;
-    --cover-color:linear-gradient(45deg,#00abf0,#006e9a);
+    --cover-color: linear-gradient(45deg, #0000ff, #0066ff, #00ddff);
     --page-color:linear-gradient(90deg,#fff,#ddd);
     --border:0.125rem solid #00abf0;
     --box-shadow:0 0 0.6rem rgba(0,0,0,0.2);
@@ -217,12 +217,18 @@ height: 1.2rem;
 background-color: var(--main-color);
 border-radius: 50%;
 }
-.year{
+.lang,.year{
     color:var(--main-color)
 }
-.year i{
-    margin-right: .4rem;
+
+.src{
+    color:var(--main-color)
 }
+
+.demo{
+    color:brown;
+}
+
 .number-page
 {
     position: absolute;
